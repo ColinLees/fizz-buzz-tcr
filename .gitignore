@@ -2,7 +2,7 @@
 # Edit at https://www.gitignore.io/?templates=node
 
 # Ignoreing README.me for initial commits so I don't loose documentation
-#README.md
+README.md
 
 ### Node ###
 # Logs
