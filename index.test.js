@@ -14,4 +14,8 @@ describe('FizzBuzz', () => {
   it('should return "Fizz" for 3', () => {
     assert.equal(fizzBuzzer.single(3), 'Fizz')
   })
+
+  it('should return "Buzz" for 5', () => {
+    assert.equal(fizzBuzzer.single(5), 'Buzz')
+  })
 })
