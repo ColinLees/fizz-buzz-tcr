@@ -36,4 +36,8 @@ describe('FizzBuzz string', () => {
   it('should return "1" for "1"', () => {
     assert.equal(fizzBuzzer.string('1'), '1')
   })
+
+  it('should reutrn "1, 2" for "1,2"', () => {
+    assert.equal(fizzBuzzer.string('1, 2'), '1, 2')
+  })
 })
