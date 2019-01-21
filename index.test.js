@@ -31,3 +31,9 @@ describe('FizzBuzz', () => {
     assert.equal(fizzBuzzer.single(15), 'FizzBuzz')
   })
 })
+
+describe('FizzBuzz string', () => {
+  it('should return "1" for "1"', () => {
+    assert.equal(fizzBuzzer.string('1'), '1')
+  })
+})
