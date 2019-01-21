@@ -23,6 +23,10 @@ describe('FizzBuzz', () => {
     assert.equal(fizzBuzzer.single(6), 'Fizz')
   })
 
+  it('should return "Buzz" for 10', () => {
+    assert.equal(fizzBuzzer.single(10), 'Buzz')
+  })
+
   it('should return "FizzBuzz" for 15', () => {
     assert.equal(fizzBuzzer.single(15), 'FizzBuzz')
   })
