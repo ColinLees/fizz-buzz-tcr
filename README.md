@@ -9,11 +9,16 @@
 <br />
 
 ## Table of Contents
+- [Challange](#challange)
 - [Initilaization](#initilaization)
-- [Talks](#talks)
-- [Showcases](#showcases)
-- [Completed challanges](#completed-challanges)
-- [Challange ideas](#challange-ideas)
+
+## Challange
+Write a program that prints the numbers from 1 to 15. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+### Added challange
+When testing you must run 'npm run tcr', this command test the code and commits it, however, if either of those fail then all work since the last commit will be reverted.
+
+**test && commit || revert**
 
 ## Initilaization
 - `mkdir fizz-buzz-tcr && cd fizz-buzz-tcr`
