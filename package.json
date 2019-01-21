@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "standard",
-    "pretest": "standard",
     "test": "mocha -D bdd -R list .",
     "commit": "git add -A && git commit -m \"Test Commit Revert\"",
     "revert": "git reset --hard",

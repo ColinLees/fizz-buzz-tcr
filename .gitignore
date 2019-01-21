@@ -1,9 +1,6 @@
 # Created by https://www.gitignore.io/api/node
 # Edit at https://www.gitignore.io/?templates=node
 
-# Ignoreing README.me for initial commits so I don't loose documentation
-README.md
-
 ### Node ###
 # Logs
 logs
