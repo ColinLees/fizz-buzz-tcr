@@ -11,11 +11,15 @@ describe('Testing', () => {
         assert.equal(fizzBuzz.fizzBuzzMethod(2), 2)
     })
 
-    it('should return fizz for multiple of 3', () => {
-        assert.equal(fizzBuzz.fizzBuzzMethod(3), 'fizz')
+    it('should return Fizz for multiple of 3', () => {
+        assert.equal(fizzBuzz.fizzBuzzMethod(3), 'Fizz')
     })
 
-    it('should return buzz for multiple of 5', () => {
-        assert.equal(fizzBuzz.fizzBuzzMethod(5), 'buzz')
+    it('should return Buzz for multiple of 5', () => {
+        assert.equal(fizzBuzz.fizzBuzzMethod(5), 'Buzz')
+    })
+
+    it('should return FizzBuzz for multiple of 3 & 5', () => {
+        assert.equal(fizzBuzz.fizzBuzzMethod(15), 'FizzBuzz')
     })
 })
