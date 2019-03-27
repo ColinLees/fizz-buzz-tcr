@@ -1,5 +1,5 @@
-function printFizzBuzz(int){
-    return 1
+function printFizzBuzz(count){
+    return count
 }
 
 module.exports = {printFizzBuzz}
