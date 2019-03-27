@@ -4,6 +4,10 @@ function displayFizzBuzz(count) {
     {
         return 'fizz'
     }
+    else if(count % 5 === 0)
+    {
+        return 'buzz'
+    }
 
     return count;
 }
