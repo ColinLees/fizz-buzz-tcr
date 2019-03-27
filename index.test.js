@@ -14,4 +14,8 @@ describe('Testing', () => {
     it('should return fizz for multiple of 3', () => {
         assert.equal(fizzBuzz.fizzBuzzMethod(3), 'fizz')
     })
+
+    it('should return buzz for multiple of 5', () => {
+        assert.equal(fizzBuzz.fizzBuzzMethod(5), 'buzz')
+    })
 })
