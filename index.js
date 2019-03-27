@@ -1,6 +1,9 @@
 function displayFizzBuzz(count) {
 
-    if(count % 3 === 0)
+    if(count % 3 === 0 && count % 5 === 0) {
+        return 'fizzbuzz'
+    }
+    else if(count % 3 === 0)
     {
         return 'fizz'
     }
