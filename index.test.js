@@ -16,4 +16,8 @@ describe('Testing', () => {
     it('should return fizzbuzz when parameter is a multiple of 3 and 5', () => {
         assert.equal(app.displayFizzBuzz(15), 'fizzbuzz');
     });
+
+    it('should return the parameter when parameter is not a multiple of 3 or 5', () => {
+        assert.equal(app.displayFizzBuzz(4), 4);
+    });
 });
