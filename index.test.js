@@ -10,4 +10,8 @@ describe('Testing', () => {
     it('should return number', () => {
         assert.equal(fizzBuzz.fizzBuzzMethod(2), 2)
     })
+
+    it('should return fizz for multiple of 3', () => {
+        assert.equal(fizzBuzz.fizzBuzzMethod(3), 'fizz')
+    })
 })
