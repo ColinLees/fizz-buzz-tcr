@@ -11,4 +11,8 @@ describe('FizzBuzz Test', () => {
     it('should return fizz when multiples of 5 are passed in ', () => {
         assert.equal(app.printFizzBuzz(5), 'buzz')
     })
+
+    it('should return fizz when multiples of 3 and 5 are passed in ', () => {
+        assert.equal(app.printFizzBuzz(15), 'fizzbuzz')
+    })
 })
